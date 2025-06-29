@@ -1,3 +1,6 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
+
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
     padding: 0;
@@ -14,8 +17,6 @@ body {
     color: #3a3a3a;
 }
 
-
-
 /* Header */
 header {
     background-color: lightcoral;
@@ -24,7 +25,7 @@ header {
 /* Main content */
 main {
     background-color: lightblue;
-    /* Makemain element take up any surplus space to push footer down */
+    /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
 }
 
@@ -32,3 +33,4 @@ main {
 footer {
     background-color: orange;
 }
+
